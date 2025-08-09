@@ -48,7 +48,7 @@
   // "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
   "routes": [
     {
-      "pattern": "apex.wxx9248.top",
+      "pattern": "wxx9248.top",
       "custom_domain": true
     }
   ],
