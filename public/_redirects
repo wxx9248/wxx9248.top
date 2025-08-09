@@ -1,0 +1,3 @@
+# Serve the Matrix delegation files as-is, ahead of the catch-all redirect.
+/.well-known/matrix/* /.well-known/matrix/:splat 200
+/* https://www.wxx9248.top 301
