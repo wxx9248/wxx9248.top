@@ -1,0 +1,16 @@
+{
+  "name": "apex",
+  "version": "1.0.0",
+  "author": "wxx9248 <wxx9248@wxx9248.top>",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "build": "wrangler deploy --dry-run",
+    "dev": "wrangler dev",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "wrangler": "^4.156.0"
+  }
+}

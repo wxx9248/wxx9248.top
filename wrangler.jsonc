@@ -1,0 +1,25 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "apex",
+  "compatibility_date": "2026-10-23",
+  /**
+   * Static Assets
+   * Assets-only Worker: no script runs, so requests are not billed as Worker invocations.
+   * Headers and redirects live in public/_headers and public/_redirects.
+   * https://developers.cloudflare.com/workers/static-assets/
+   */
+  "assets": {
+    "directory": "./public/"
+  },
+  "routes": [
+    {
+      "pattern": "wxx9248.top",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false
+}
