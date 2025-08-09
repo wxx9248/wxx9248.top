@@ -1,9 +1,7 @@
 import { Hono } from "hono";
+import { createRouters } from "./router/router";
 
 const app = new Hono<{ Bindings: CloudflareBindings }>();
-
-app.get("/message", (c) => {
-  return c.text("Hello Hono!");
-});
+createRouters(app);
 
 export default app;
