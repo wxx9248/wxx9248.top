@@ -1,14 +1,12 @@
 import { Hono } from "hono";
 
-const matrixServer = "https://matrix.wxx9248.top";
-
 export function createWellKnownRouter(
   app: Hono<{ Bindings: CloudflareBindings }>
 ) {
   app.get("/.well-known/matrix/server", () => {
     return new Response(
       JSON.stringify({
-        "m.server": matrixServer
+        "m.server": "matrix.wxx9248.top:443"
       }),
       {
         headers: {
@@ -22,7 +20,7 @@ export function createWellKnownRouter(
     return new Response(
       JSON.stringify({
         "m.homeserver": {
-          base_url: matrixServer
+          base_url: "https://matrix.wxx9248.top"
         }
       }),
       {
