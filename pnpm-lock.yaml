@@ -16,8 +16,8 @@ importers:
         specifier: ^0.16.9
         version: 0.16.9(@vitest/runner@4.1.7)(@vitest/snapshot@4.1.7)(vitest@4.1.7(vite@7.1.1))
       node-addon-api:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.8.0
+        version: 8.8.0
       node-gyp:
         specifier: ^12.3.0
         version: 12.3.0
@@ -854,8 +854,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  node-addon-api@8.7.0:
-    resolution: {integrity: sha512-9MdFxmkKaOYVTV+XVRG8ArDwwQ77XIgIPyKASB1k3JPq3M8fGQQQE3YpMOrKm6g//Ktx8ivZr8xo1Qmtqub+GA==}
+  node-addon-api@8.8.0:
+    resolution: {integrity: sha512-c5Ko1fZJIJmzhFIkhRN76WTq+fC6tWnGy9CXA0fA+XygsWZmEwG8vmbkNqxMyoaa0Tin4djul49NzdVcJJcjeA==}
     engines: {node: ^18 || ^20 || >= 21}
 
   node-gyp@12.3.0:
@@ -1710,7 +1710,7 @@ snapshots:
 
   nanoid@3.3.12: {}
 
-  node-addon-api@8.7.0: {}
+  node-addon-api@8.8.0: {}
 
   node-gyp@12.3.0:
     dependencies:
