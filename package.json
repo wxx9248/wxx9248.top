@@ -12,7 +12,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.21.3",
+    "@cloudflare/vitest-pool-workers": "^0.22.0",
     "node-addon-api": "^8.9.2",
     "node-gyp": "^13.0.1",
     "prettier": "^3.9.6",
