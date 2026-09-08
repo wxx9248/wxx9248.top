@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.13.6
-        version: 4.13.6
+        specifier: ^4.13.7
+        version: 4.13.7
     devDependencies:
       '@cloudflare/vitest-pool-workers':
         specifier: ^0.22.0
@@ -1013,8 +1013,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  hono@4.13.6:
-    resolution: {integrity: sha512-47iXdWYWIbuY+X5URwNIgnvRV/kLneGu6ubzIoaNqbVHNuHF4Mxg/Uw0PNH3APM0iwiPAY6iFawfEEhHikniaQ==}
+  hono@4.13.7:
+    resolution: {integrity: sha512-c8/gF9ac8Y78/agExVocyLevgR+JlpNB444Py0FSX8pJoPdYUfUzRcXtYEYGwt6l19qIlVZPN5Mfsw9jFShmQQ==}
     engines: {node: '>=16.9.0'}
 
   isexe@4.0.0:
@@ -1962,7 +1962,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  hono@4.13.6: {}
+  hono@4.13.7: {}
 
   isexe@4.0.0: {}
 
